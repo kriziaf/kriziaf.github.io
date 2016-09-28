@@ -1,14 +1,25 @@
 .header {
-  float: left;
-  font-family: sans-serif;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+  display: block;
+  color: #333;
+  padding: 30px 25px 0;
+  margin: 0;
 }
 
-
+button {
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 7px 20px;
+  font-size: 16px;
+  color: #333;
+}
 
 .button-filters {
   float: left;
-  margin-left: 50px;
-  padding-top: 25px;
+  padding: 25px;
+
 }
 
 #flash-cards {
