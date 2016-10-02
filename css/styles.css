@@ -26,6 +26,7 @@ button {
 #flash-cards {
   float: left;
   width: 100%;
+/*  text-align: center;*/
 }
 
 #flash-cards .mix {
