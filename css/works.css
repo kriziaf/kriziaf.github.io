@@ -42,6 +42,21 @@ button {
 
 #flash-cards .mix img {
   width: 300px;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+   filter: grayscale(100%);
+  
+}
+
+#flash-cards .mix img:hover {
+  
+  -webkit-filter: brightness(90%);
+   filter: brightness(90%);
+  
+}
   /*margin-right: 10px;*/
 }
 
