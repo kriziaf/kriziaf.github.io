@@ -142,12 +142,6 @@ h3 {
 	padding: .35em;
 }
 
-.gallery {
-	width: 100%;
-	margin: auto;
-}
-
-
 .gold {
 	background: #998100;
 	color: #000;
@@ -168,9 +162,13 @@ footer {
 	background: #998100;
 	padding: 1em .35em 5em .35em;
 	width: 100%;
-
 }
 
+.spacer {
+	height: 150px;
+	background: #998100;
+
+}
 @media only screen and (min-width:730px) {
 
 	.gallery {
