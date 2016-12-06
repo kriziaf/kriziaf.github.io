@@ -131,6 +131,10 @@ h3 {
 	padding: .35em;
 }
 
+.darkgrey a {
+	color: #998100;
+}
+
 .black {
 	background: #000;
 	width: 100%;
