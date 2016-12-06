@@ -1,0 +1,20 @@
+.header {
+
+  font-family: sans-serif;
+  flex: 1 1 100%;
+  /*margin-left: 50px;*/
+  padding: 25px;
+}
+
+.col-lg-12 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify: flex-start;
+
+}
+
+.button-filters {
+  flex: 1 1 100%;
+  /*margin-left: 50px;*/
+  padding: 25px;
+}

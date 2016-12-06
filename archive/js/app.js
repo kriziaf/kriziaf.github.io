@@ -1,0 +1,3 @@
+$(function(){
+  $('#flash-cards').mixItUp();
+});
