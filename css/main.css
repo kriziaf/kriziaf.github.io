@@ -164,7 +164,6 @@ h3 {
 
 footer {
 	background: #998100;
-	color: #ccc;
 	padding: 1em .35em 5em .35em;
 	width: 100%;
 
@@ -172,58 +171,52 @@ footer {
 
 @media only screen and (min-width:730px) {
 
-.gallery {
-width: 30%;
-margin: 0;
-padding: 1em 0 3em 0;
-vertical-align: baseline;
+	.gallery {
+	width: 30%;
+	margin: 0;
+	padding: 1em 0 3em 0;
+	vertical-align: baseline;
 
-}
+	}
 
-header h1, h3 {
-	display: none;
-}
+	header h1, h3 {
+		display: none;
+	}
 
-.iconset {
-	display: inline-block;
-}
+	.iconset {
+		display: inline-block;
+	}
 
-.title {
-font-size: 4em; }
+	.title {
+	font-size: 4em; }
 
-.copy {
-	width: 50%;
-}
+	.copy {
+		width: 50%;
+	}
 
-nav a{
-	display: inline-block;
-	padding: 1em 3em 1em 3em;
-}
+	nav a{
+		display: inline-block;
+		padding: 1em 3em 1em 3em;
+	}
 
-nav:hover a {
-	display: inline-block;
-}
+	nav:hover a {
+		display: inline-block;
+	}
 
-nav a#mobilenav {
+	nav a#mobilenav {
 
-	display: none;
-}
+		display: none;
+	}
 
-.left {
-	display: inline-block;
-	margin: auto;
-}
+	.left {
+		display: inline-block;
+		margin: auto;
+	}
 
-.right {
-	display: inline-block;
-	margin: auto;
-}
-
-}
-
-@media only screen and (min-width:850px) {
-
-}
+	.right {
+		display: inline-block;
+		margin: auto;
+	}
 
 }
 
