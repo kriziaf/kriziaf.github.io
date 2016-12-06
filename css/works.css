@@ -29,7 +29,6 @@ button {
 .button-filters {
  /* float: left;*/
   padding: 25px;
-
 }
 
 #flash-cards {
@@ -42,7 +41,7 @@ button {
 }
 
 #flash-cards .mix img {
-  width: 150px;
+  width: 300px;
   /*margin-right: 10px;*/
 }
 
