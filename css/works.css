@@ -47,6 +47,7 @@ button {
    -o-transition: all 1s ease;
    -ms-transition: all 1s ease;
    transition: all 1s ease;
+    -webkit-filter: grayscale(100%);
    filter: grayscale(100%);
   
 }
