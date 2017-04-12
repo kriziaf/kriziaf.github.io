@@ -149,6 +149,12 @@ h3 {
 	color: black;
 }
 
+.profile {
+	width: 300px;
+	border-radius: 300px;
+	padding: 20px;
+}
+
 footer {
 	background: #b4a851;
 	padding: 1em .35em 5em .35em;
