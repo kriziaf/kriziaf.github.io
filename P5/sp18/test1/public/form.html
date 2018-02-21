@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Speak and Translate</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+    <script src="../lib/p5.speech.js"></script>
+
+
+  </head>
+
+
+  <body>
+    <!-- <nav>
+      <h3>Speak and Translate</h3>
+      <h4>Home</h4>
+    </nav> -->
+
+    <div>
+
+    <h1>Say something in English</h1>
+    <p>I'll translate it in
+      <select>
+        <option value="Filipino">Filipino</option>
+        <option value="Spanish">Spanish</option>
+        <option value="Botspeak">Botspeak</option>
+      </select>
+    </p>
+
+    <div class="translate_speech">
+        <form action="/formpost" method="POST">
+          <input type="text" name="textfield" value="can I have this apple?" />
+        </form>
+
+        <form action="/translate_api" method="GET">
+          <input type="text" name="textfield" value="mayroon akong apple ito?" />
+        </form>
+
+        <input class="button" type="submit" name="submit" value="translate"/>
+
+      </div>
+
+      <div class="improve_translate">
+
+        <h2>Improve translation?</h2>
+
+        <form action="/translate_api" method="GET">
+          <input type="text" name="textfield" value="gusto ko itong mansanas." />
+          <input class="button" type="submit" name="record" value="record"/>
+          <input class="button" type="submit" name="stop" value="stop"/>
+          <input class="button" type="submit" name="upload" value="upload"/>
+        </form>
+
+      </div>
+
+    </div>
+  </body>
+
+</html>
