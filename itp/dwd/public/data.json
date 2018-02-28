@@ -1,0 +1,28 @@
+
+{
+  "created_at": "Tue Feb 20 03:05:34 +0000 2018",
+  "id": 965784465191723000,
+  "id_str": "965784465191723010",
+  "text": "#madeoffood coffee ☕️ wrap 🌮 salmon 🐟 rice 🍚 - I always eat the same darn thing!!! #matchadata",
+  "truncated": false,
+  "entities": {
+  "hashtags": [
+    {
+    "text": "madeoffood",
+    "indices": [
+    0,
+    11
+    ]
+    },
+    {
+    "text": "matchadata",
+    "indices": [
+    83,
+    94
+    ]
+    }
+    ],
+    "symbols": [ ],
+    "user_mentions": [ ],
+    "urls": [ ]
+}
